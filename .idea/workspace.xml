@@ -6,11 +6,29 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b27e0079-74a1-4ce0-8baf-afd982a30325" name="Default Changelist" comment="" />
+    <list default="true" id="b27e0079-74a1-4ce0-8baf-afd982a30325" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <list id="dcc1f984-bc6e-4b15-96c8-446f5112cffa" name="gitignore" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610526030335</updated>
-      <workItem from="1610526034705" duration="3689000" />
+      <workItem from="1610526034705" duration="4246000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore">
       <created>1610528521856</created>
@@ -92,7 +110,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -143,6 +173,10 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="617" y="285" key="Vcs.Push.Dialog.v2/0.0.2048.1112/-1920.190.1920.1040@0.0.2048.1112" timestamp="1610528526236" />
+    <state x="770" y="466" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610530209031">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="770" y="466" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2048.1112/-1920.190.1920.1040@0.0.2048.1112" timestamp="1610530209031" />
     <state x="258" y="131" key="new project wizard" timestamp="1610526101431">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
