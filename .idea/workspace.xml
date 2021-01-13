@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b27e0079-74a1-4ce0-8baf-afd982a30325" name="Default Changelist" comment="" />
+    <list id="dcc1f984-bc6e-4b15-96c8-446f5112cffa" name="gitignore" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1n0TVNM9mXddg3gW2VD63ksNeLM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.10881393" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager">
+    <configuration name="MybatisTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mybatis-01-HelloWorld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mybatis.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mybatis.test" />
+      <option name="MAIN_CLASS_NAME" value="com.mybatis.test.MybatisTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MybatisTest.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b27e0079-74a1-4ce0-8baf-afd982a30325" name="Default Changelist" comment="" />
+      <changelist id="dcc1f984-bc6e-4b15-96c8-446f5112cffa" name="gitignore" comment="" />
+      <created>1610526030335</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610526030335</updated>
+      <workItem from="1610526034705" duration="3689000" />
+    </task>
+    <task id="LOCAL-00001" summary="gitignore">
+      <created>1610528521856</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610528521856</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="505" y="131" key="#Project_Structure" timestamp="1610527682282">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="505" y="131" key="#Project_Structure/0.0.2048.1112/-1920.190.1920.1040@0.0.2048.1112" timestamp="1610527682282" />
+    <state x="549" y="54" key="CommitChangelistDialog2" timestamp="1610528521261">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="549" y="54" key="CommitChangelistDialog2/0.0.2048.1112/-1920.190.1920.1040@0.0.2048.1112" timestamp="1610528521261" />
+    <state width="2005" height="289" key="GridCell.Tab.0.bottom" timestamp="1610528581875">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="289" key="GridCell.Tab.0.bottom/0.0.2048.1112/-1920.190.1920.1040@0.0.2048.1112" timestamp="1610528581875" />
+    <state width="2005" height="289" key="GridCell.Tab.0.center" timestamp="1610528581875">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="289" key="GridCell.Tab.0.center/0.0.2048.1112/-1920.190.1920.1040@0.0.2048.1112" timestamp="1610528581875" />
+    <state width="2005" height="289" key="GridCell.Tab.0.left" timestamp="1610528581875">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="289" key="GridCell.Tab.0.left/0.0.2048.1112/-1920.190.1920.1040@0.0.2048.1112" timestamp="1610528581875" />
+    <state width="2005" height="289" key="GridCell.Tab.0.right" timestamp="1610528581875">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="289" key="GridCell.Tab.0.right/0.0.2048.1112/-1920.190.1920.1040@0.0.2048.1112" timestamp="1610528581875" />
+    <state x="796" y="175" key="RollbackChangesDialog" timestamp="1610528794273">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="796" y="175" key="RollbackChangesDialog/0.0.2048.1112/-1920.190.1920.1040@0.0.2048.1112" timestamp="1610528794273" />
+    <state x="505" y="131" width="1280" height="710" key="SettingsEditor" timestamp="1610526304932">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="505" y="131" width="1280" height="710" key="SettingsEditor/0.0.2048.1112/-1920.190.1920.1040@0.0.2048.1112" timestamp="1610526304932" />
+    <state x="869" y="463" key="VCS.ChangelistChooser" timestamp="1610528590824">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="869" y="463" key="VCS.ChangelistChooser/0.0.2048.1112/-1920.190.1920.1040@0.0.2048.1112" timestamp="1610528590824" />
+    <state x="617" y="285" key="Vcs.Push.Dialog.v2" timestamp="1610528526236">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="617" y="285" key="Vcs.Push.Dialog.v2/0.0.2048.1112/-1920.190.1920.1040@0.0.2048.1112" timestamp="1610528526236" />
+    <state x="258" y="131" key="new project wizard" timestamp="1610526101431">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="258" y="131" key="new project wizard/0.0.2048.1112/-1920.190.1920.1040@0.0.2048.1112" timestamp="1610526101431" />
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1610526849430">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112/-1920.190.1920.1040@0.0.2048.1112" timestamp="1610526849430" />
+  </component>
+</project>
