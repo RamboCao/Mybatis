@@ -10,6 +10,12 @@ public class Employee {
 
     private Integer gender;
 
+    public Employee(Integer id, String lastName, Integer gender) {
+        this.id = id;
+        this.lastName = lastName;
+        this.gender = gender;
+    }
+
     public Integer getId() {
         return id;
     }

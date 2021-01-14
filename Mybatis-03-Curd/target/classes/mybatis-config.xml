@@ -46,7 +46,7 @@
 
     <!--写好的 sql 映射文件一定需要注册到全局配置文件中-->
     <mappers>
-    <!--<com.mybatis.mapper resource="com.mybatis.mapper/EmployeeMapper02.xml"/>-->
+    <!--<com.mybatis.mapper resource="com.mybatis.mapper/EmployeeMapper.xml"/>-->
     <!--<com.mybatis.mapper class="com.mybatis.mapper.EmployeeMapperAnnotation"/>-->
         <package name="com.mybatis.mapper"/>
     </mappers>

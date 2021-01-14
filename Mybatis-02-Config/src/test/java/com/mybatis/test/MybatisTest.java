@@ -1,7 +1,7 @@
 package com.mybatis.test;
 
 import com.mybatis.bean.Employee;
-import com.mybatis.mapper.EmployeeMapper;
+import com.mybatis.mapper.EmployeeMapper02;
 import com.mybatis.mapper.EmployeeMapperAnnotation;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
@@ -25,7 +25,7 @@ public class MybatisTest {
 
         SqlSessionFactory sqlSessionFactory = getSqlSessionFactory();
         try (SqlSession sqlSession = sqlSessionFactory.openSession()) {
-            EmployeeMapper mapper = sqlSession.getMapper(EmployeeMapper.class);
+            EmployeeMapper02 mapper = sqlSession.getMapper(EmployeeMapper02.class);
             Employee employee = mapper.getEmployee(1);
             System.out.println(employee);
         }
