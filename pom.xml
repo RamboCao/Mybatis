@@ -11,6 +11,7 @@
     <modules>
         <module>Mybatis-01-HelloWorld</module>
         <module>Mybatis-02-Config</module>
+        <module>Mybatis-03-Curd</module>
     </modules>
     <!-- dependencyManagement元素下的依赖不会自动引入子模块，保证灵活性-->
     <!--如果不加dependencyManagement元素，dependencies下依赖会自动继承到所有子模块-->

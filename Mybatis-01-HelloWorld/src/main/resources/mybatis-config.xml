@@ -19,6 +19,7 @@
             </dataSource>
         </environment>
     </environments>
+    <!--写好的 sql 映射文件一定需要注册到全局配置文件中-->
     <mappers>
         <mapper resource="mapper/EmployeeMapper.xml"/>
     </mappers>
