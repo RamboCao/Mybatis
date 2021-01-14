@@ -26,16 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b27e0079-74a1-4ce0-8baf-afd982a30325" name="Default Changelist" comment="gitignore">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mybatis-01-HelloWorld/src/main/resources/mapper/EmployeeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis-01-HelloWorld/src/main/resources/mapper/EmployeeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mybatis-02-Config/src/main/java/com/mybatis/mapper/EmployeeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis-02-Config/src/main/java/com/mybatis/mapper/EmployeeMapper02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mybatis-02-Config/src/main/resources/com/mybatis/mapper/EmployeeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis-02-Config/src/main/resources/com/mybatis/mapper/EmployeeMapper02.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mybatis-02-Config/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis-02-Config/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mybatis-02-Config/src/test/java/com/mybatis/test/MybatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis-02-Config/src/test/java/com/mybatis/test/MybatisTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mybatis-03-Curd/src/main/java/com/mybatis/bean/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis-03-Curd/src/main/java/com/mybatis/bean/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mybatis-03-Curd/src/main/java/com/mybatis/mapper/EmployeeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis-03-Curd/src/main/java/com/mybatis/mapper/EmployeeMapper03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mybatis-03-Curd/src/main/resources/com/mybatis/mapper/EmployeeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis-03-Curd/src/main/resources/com/mybatis/mapper/EmployeeMapper03.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mybatis-03-Curd/src/test/java/com/mybatis/test/MybatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis-03-Curd/src/test/java/com/mybatis/test/MybatisTest03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <list id="dcc1f984-bc6e-4b15-96c8-446f5112cffa" name="gitignore" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -219,7 +210,7 @@
       <updated>1610526030335</updated>
       <workItem from="1610526034705" duration="5389000" />
       <workItem from="1610585235014" duration="374000" />
-      <workItem from="1610585618032" duration="13074000" />
+      <workItem from="1610585618032" duration="13159000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore">
       <created>1610528521856</created>
