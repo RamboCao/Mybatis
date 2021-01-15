@@ -10,6 +10,8 @@ import org.junit.Test;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class MybatisTest03 {
 
@@ -21,11 +23,28 @@ public class MybatisTest03 {
 
     @Test
     public void test() throws IOException {
-
         SqlSessionFactory sqlSessionFactory = getSqlSessionFactory();
         try (SqlSession sqlSession = sqlSessionFactory.openSession()) {
             EmployeeMapper03 mapper = sqlSession.getMapper(EmployeeMapper03.class);
-            Employee employee = mapper.getEmployee(1);
+            List<Integer> ids = Collections.singletonList(1);
+            Employee employee = mapper.getEmployee(ids);
+            System.out.println(employee);
+        }
+    }
+
+    @Test
+    public void selectByIdAndName() throws IOException {
+        SqlSessionFactory sqlSessionFactory = getSqlSessionFactory();
+        try (SqlSession sqlSession = sqlSessionFactory.openSession()) {
+            EmployeeMapper03 mapper = sqlSession.getMapper(EmployeeMapper03.class);
+//            Employee employee = mapper.getEmployeeByIdAndName(new Employee(2 , "Tom"));
+
+//            Employee employee = new Employee(1, "Tom");
+
+            Map<String, Object> params = new HashMap<>();
+            params.put("id", 2);
+            params.put("lastName", null);
+            Employee employee = mapper.getEmployeeByIdAndName(params);
             System.out.println(employee);
         }
     }

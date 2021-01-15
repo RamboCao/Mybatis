@@ -16,6 +16,11 @@ public class Employee {
         this.gender = gender;
     }
 
+    public Employee(Integer id, String lastName) {
+        this.id = id;
+        this.lastName = lastName;
+    }
+
     public Integer getId() {
         return id;
     }

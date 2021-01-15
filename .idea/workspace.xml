@@ -26,7 +26,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b27e0079-74a1-4ce0-8baf-afd982a30325" name="Default Changelist" comment="gitignore">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis-03-Curd/src/main/java/com/mybatis/bean/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis-03-Curd/src/main/java/com/mybatis/bean/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis-03-Curd/src/main/java/com/mybatis/mapper/EmployeeMapper03.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis-03-Curd/src/main/java/com/mybatis/mapper/EmployeeMapper03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis-03-Curd/src/main/resources/com/mybatis/mapper/EmployeeMapper03.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis-03-Curd/src/main/resources/com/mybatis/mapper/EmployeeMapper03.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis-03-Curd/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis-03-Curd/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis-03-Curd/src/test/java/com/mybatis/test/MybatisTest03.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis-03-Curd/src/test/java/com/mybatis/test/MybatisTest03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis-03-Curd/target/classes/com/mybatis/mapper/EmployeeMapper03.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis-03-Curd/target/classes/com/mybatis/mapper/EmployeeMapper03.xml" afterDir="false" />
     </list>
     <list id="dcc1f984-bc6e-4b15-96c8-446f5112cffa" name="gitignore" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,22 +97,7 @@
       <recent name="C:\Code\Mybatis\Mybatis\Mybatis-02-Config" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MybatisTest03.insertTest">
-    <configuration name="MybatisTest03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Mybatis-03-Curd" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mybatis.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.mybatis.test" />
-      <option name="MAIN_CLASS_NAME" value="com.mybatis.test.MybatisTest03" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MybatisTest03.selectByIdAndName">
     <configuration name="MybatisTest03.deleteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Mybatis-03-Curd" />
       <extension name="coverage">
@@ -134,6 +125,38 @@
       <option name="PACKAGE_NAME" value="com.mybatis.test" />
       <option name="MAIN_CLASS_NAME" value="com.mybatis.test.MybatisTest03" />
       <option name="METHOD_NAME" value="insertTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest03.selectByIdAndName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mybatis-03-Curd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mybatis.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mybatis.test" />
+      <option name="MAIN_CLASS_NAME" value="com.mybatis.test.MybatisTest03" />
+      <option name="METHOD_NAME" value="selectByIdAndName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest03.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mybatis-03-Curd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mybatis.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mybatis.test" />
+      <option name="MAIN_CLASS_NAME" value="com.mybatis.test.MybatisTest03" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -171,29 +194,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Mybatis-02-Config" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mybatis.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.mybatis.test" />
-      <option name="MAIN_CLASS_NAME" value="com.mybatis.test.MybatisTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MybatisTest03.selectByIdAndName" />
+        <item itemvalue="JUnit.MybatisTest03.test" />
         <item itemvalue="JUnit.MybatisTest03.insertTest" />
         <item itemvalue="JUnit.MybatisTest03.deleteTest" />
         <item itemvalue="JUnit.MybatisTest03.updateTest" />
-        <item itemvalue="JUnit.MybatisTest03" />
-        <item itemvalue="JUnit.MybatisTest.test (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +217,7 @@
       <updated>1610526030335</updated>
       <workItem from="1610526034705" duration="5389000" />
       <workItem from="1610585235014" duration="374000" />
-      <workItem from="1610585618032" duration="13159000" />
+      <workItem from="1610585618032" duration="21351000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore">
       <created>1610528521856</created>
@@ -274,10 +281,10 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="1030" y="305" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2048.1112/-1920.190.1920.1040@0.0.2048.1112" timestamp="1610585477244" />
-    <state x="830" y="260" key="#com.intellij.ide.util.MemberChooser" timestamp="1610604348262">
+    <state x="830" y="260" key="#com.intellij.ide.util.MemberChooser" timestamp="1610700735720">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="830" y="260" key="#com.intellij.ide.util.MemberChooser/0.0.2048.1112/-1920.190.1920.1040@0.0.2048.1112" timestamp="1610604348262" />
+    <state x="830" y="260" key="#com.intellij.ide.util.MemberChooser/0.0.2048.1112/-1920.190.1920.1040@0.0.2048.1112" timestamp="1610700735720" />
     <state x="606" y="205" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1610586220676">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -294,22 +301,38 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="689" y="227" key="FileChooserDialogImpl/0.0.2048.1112/-1920.190.1920.1040@0.0.2048.1112" timestamp="1610585840075" />
-    <state width="2005" height="283" key="GridCell.Tab.0.bottom" timestamp="1610605685329">
+    <state width="2005" height="357" key="GridCell.Tab.0.bottom" timestamp="1610701770480">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="283" key="GridCell.Tab.0.bottom/0.0.2048.1112/-1920.190.1920.1040@0.0.2048.1112" timestamp="1610605685329" />
-    <state width="2005" height="283" key="GridCell.Tab.0.center" timestamp="1610605685329">
+    <state width="2005" height="357" key="GridCell.Tab.0.bottom/0.0.2048.1112/-1920.190.1920.1040@0.0.2048.1112" timestamp="1610701770480" />
+    <state width="2005" height="357" key="GridCell.Tab.0.center" timestamp="1610701770480">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="283" key="GridCell.Tab.0.center/0.0.2048.1112/-1920.190.1920.1040@0.0.2048.1112" timestamp="1610605685329" />
-    <state width="2005" height="283" key="GridCell.Tab.0.left" timestamp="1610605685329">
+    <state width="2005" height="357" key="GridCell.Tab.0.center/0.0.2048.1112/-1920.190.1920.1040@0.0.2048.1112" timestamp="1610701770480" />
+    <state width="2005" height="357" key="GridCell.Tab.0.left" timestamp="1610701770480">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="283" key="GridCell.Tab.0.left/0.0.2048.1112/-1920.190.1920.1040@0.0.2048.1112" timestamp="1610605685329" />
-    <state width="2005" height="283" key="GridCell.Tab.0.right" timestamp="1610605685329">
+    <state width="2005" height="357" key="GridCell.Tab.0.left/0.0.2048.1112/-1920.190.1920.1040@0.0.2048.1112" timestamp="1610701770480" />
+    <state width="2005" height="357" key="GridCell.Tab.0.right" timestamp="1610701770480">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="283" key="GridCell.Tab.0.right/0.0.2048.1112/-1920.190.1920.1040@0.0.2048.1112" timestamp="1610605685329" />
+    <state width="2005" height="357" key="GridCell.Tab.0.right/0.0.2048.1112/-1920.190.1920.1040@0.0.2048.1112" timestamp="1610701770480" />
+    <state width="2005" height="357" key="GridCell.Tab.1.bottom" timestamp="1610701772018">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="357" key="GridCell.Tab.1.bottom/0.0.2048.1112/-1920.190.1920.1040@0.0.2048.1112" timestamp="1610701772018" />
+    <state width="2005" height="357" key="GridCell.Tab.1.center" timestamp="1610701772017">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="357" key="GridCell.Tab.1.center/0.0.2048.1112/-1920.190.1920.1040@0.0.2048.1112" timestamp="1610701772017" />
+    <state width="2005" height="357" key="GridCell.Tab.1.left" timestamp="1610701772017">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="357" key="GridCell.Tab.1.left/0.0.2048.1112/-1920.190.1920.1040@0.0.2048.1112" timestamp="1610701772017" />
+    <state width="2005" height="357" key="GridCell.Tab.1.right" timestamp="1610701772017">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="357" key="GridCell.Tab.1.right/0.0.2048.1112/-1920.190.1920.1040@0.0.2048.1112" timestamp="1610701772017" />
     <state width="354" height="539" key="HiddenNamespacesPopup" timestamp="1610531068745">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -342,10 +365,10 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="770" y="466" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2048.1112/-1920.190.1920.1040@0.0.2048.1112" timestamp="1610585896645" />
-    <state x="714" y="274" width="1053" height="564" key="find.popup" timestamp="1610594676690">
+    <state x="714" y="274" width="1109" height="564" key="find.popup" timestamp="1610702118663">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="714" y="274" width="1053" height="564" key="find.popup/0.0.2048.1112/-1920.190.1920.1040@0.0.2048.1112" timestamp="1610594676690" />
+    <state x="714" y="274" width="1109" height="564" key="find.popup/0.0.2048.1112/-1920.190.1920.1040@0.0.2048.1112" timestamp="1610702118663" />
     <state x="258" y="131" key="new project wizard" timestamp="1610603106515">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -354,5 +377,16 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="687" y="243" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112/-1920.190.1920.1040@0.0.2048.1112" timestamp="1610593101144" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Mybatis-03-Curd/src/test/java/com/mybatis/test/MybatisTest03.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

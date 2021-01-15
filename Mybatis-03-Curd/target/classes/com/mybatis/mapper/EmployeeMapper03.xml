@@ -4,7 +4,11 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.mybatis.mapper.EmployeeMapper03">
     <select id="getEmployee" resultType="com.mybatis.bean.Employee">
-        select * from mybatis.EMPLOYEE e where e.id = #{id}
+        select * from mybatis.EMPLOYEE e where e.id = #{list[0]}
+    </select>
+
+    <select id="getEmployeeByIdAndName" resultType="com.mybatis.bean.Employee">
+        select * from mybatis.EMPLOYEE e where e.id = #{id} and e.last_name = #{lastName}
     </select>
 
     <!-- parameterType：参数类型，可以省略，
@@ -19,19 +23,19 @@
 
     <!--
     获取非自增主键的值：
-    Oracle不支持自增；Oracle使用序列来模拟自增；
+    Oracle不支持自增；Oracle使用序列来模拟自增；zx
     每次插入的数据的主键是从序列中拿到的值；如何获取到这个值；
      -->
     <insert id="insertEmployee" databaseId="oracle">
         <!--
-        keyProperty:查出的主键值封装给javaBean的哪个属性
-        order="BEFORE":当前sql在插入sql之前运行
-               AFTER：当前sql在插入sql之后运行
-        resultType:查出的数据的返回值类型
+        keyProperty: 查出的主键值封装给javaBean的哪个属性
+        order="BEFORE": 当前sql在插入sql之前运行
+               AFTER: 当前sql在插入sql之后运行
+        resultType: 查出的数据的返回值类型
 
         BEFORE运行顺序：
-            先运行selectKey查询id的sql；查出id值封装给javaBean的id属性
-            在运行插入的sql；就可以取出id属性对应的值
+            先运行selectKey查询id的sql: 查出id值封装给javaBean的id属性
+            在运行插入的sql: 就可以取出id属性对应的值
         AFTER运行顺序：
             先运行插入的sql（从序列中取出新值作为id）；
             再运行selectKey查询id的sql；
@@ -47,7 +51,7 @@
         <!-- 插入时的主键是从序列中拿到的 -->
         <!-- BEFORE:-->
         insert into employees(EMPLOYEE_ID,LAST_NAME,EMAIL)
-        values(#{id},#{lastName},#{email<!-- ,jdbcType=NULL -->})
+        values(#{id},#{lastName},#{email})
         <!-- AFTER：
         insert into employees(EMPLOYEE_ID,LAST_NAME,EMAIL)
         values(employees_seq.nextval,#{lastName},#{email}) -->
